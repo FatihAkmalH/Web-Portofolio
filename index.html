@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="Image/logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatih Akmal Hibatullah || Personal Portofolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <div id="main">
+        <div class="navbar">
+            <div class="logo">
+                <img src="Image/logo.png">
+                <h3>FatihAkmalH</h3>
+            </div>
+            <nav>
+                <ul>
+                    <li id="home">Home</li>
+                    <li id="about">About</li>
+                    <li id="skill">Skill</li>
+                    <li id="project">Project</li>
+                    <li id="contact">Contact</li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Hero Section -->
+        <!-- Main Content -->
+        <div class="container">
+            <div class="hero" id="hero">
+                <h4>Welcome to my personal website portofolio</h4>
+                <p class="action" id="action">Click here to start</p>
+            </div>
+            <div class="circle-box" id="circle-box">
+                <svg height="430" width="405">
+                    <circle r="200" cx="202" cy="202" stroke-width="2px" stroke="grey" fill="none" />
+                </svg>
+                <svg height="430" width="405">
+                    <circle r="200" cx="202" cy="202" stroke-width="2px" stroke="#fff" fill="none" id="svg-circle" />
+                </svg>
+                <div class="dot">
+                    <span id="step1"></span>
+                    <span id="step2"></span>
+                    <span id="step3"></span>
+                    <span id="step4"></span>
+                    <span id="step5"></span>
+                </div>
+                <div class="main-content" id="contentBox">
+                    <div class="content">
+                        <img src="Image/main-foto.jpg" alt="My Photo">
+                        <h1>Fatih Akmal Hibatullah</h1>
+                        <p>Front-End Web Development & Graphic Designer</p>
+                        <p id="about-content">about me</p>
+                    </div>
+                    <div class="content">
+                        <h1>About Me</h1>
+                        <p>
+                            I am very passionate about graphic design and front-end development especially in UI/UX and
+                            web design. My main goal is to become a designer who is useful to all, and also really want
+                            to become a front-end developer and receive the best feedback from my work. I quite
+                            understand using HTML&CSS, Javascript and Figma I’m really hope that you’ll give me a chance
+                            for attending a job interview so I can give you more about me.
+                        </p>
+                    </div>
+                    <div class="content">
+                        <div class="skill-col">
+                            <div class="skill fade">
+                                <h1>Soft - Skill</h1>
+                                <ul>
+                                    <li>Jujur,</li>
+                                    <li>Displin,</li>
+                                    <li>Mudah Beradaptasi,</li>
+                                    <li>Bertanggung Jawab,</li>
+                                    <li>Positif dan Percaya diri,</li>
+                                    <li>Berpikir Kritis dan Kreatif,</li>
+                                    <li>Bersedia mempelajari hal baru,</li>
+                                    <li>Mampu bekerja di bawah tekanan,</li>
+                                    <li>Mampu bekerja sama sebagai team.</li>
+                                </ul>
+                            </div>
+                            <div class="skill fade">
+                                <h1>Hard - Skill</h1>
+                                <ul>
+                                    <li>HTML & CSS</li>
+                                    <li>Javascript Dasar</li>
+                                    <li>Content Creator,</li>
+                                    <li>Sosial media specialist,</li>
+                                    <li>Front - end web development,</li>
+                                    <li>Bahasa Inggris pasif dan aktif,</li>
+                                    <li>Mampu membuat design konten media promosi.</li>
+                                </ul>
+                            </div>
+                            <div class="skill fade">
+                                <h1>Learning Skill</h1>
+                                <ul>
+                                    <li>Javascript tingkat menengah</li>
+                                    <li>Bootstrap</li>
+                                    <li>React.js</li>
+                                    <li>PHP</li>
+                                    <li>Laravel</li>
+                                    <li>MYSQL</li>
+                                </ul>
+                            </div>
+                            <p id="slider1" onclick="plusSlide(1)">&#8250;</p>
+                            <p id="slider2" onclick="plusSlide(-1)">&#8249;</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h1>Project</h1>
+                        <div class="project">
+                            <a href="https://github.com/FatihAkmalH" target="_blank">
+                                Coding Project
+                            </a>
+                            <div class="info1">
+                                <h3>My Coding Project</h3>
+                                <p>This is my coding project that i have made</p>
+                            </div>
+                        </div>
+                        <div class="project">
+                            <a href="https://drive.google.com/folderview?id=1Bj6bBQDc7fef33nN6pdCC6yPK_Fzfphy" target="_blank">
+                                Graphic Design
+                            </a>
+                            <div class="info2">
+                                <h3>My Graphic Design Project</h3>
+                                <p>This is my Graphic Design that i have made</p>
+                            </div>
+                        </div>
+                        <div class="project">
+                            <a href="https://dribbble.com/fatih_akmal" target="_blank">
+                                Web & Mobile App Design
+                            </a>
+                            <div class="info3">
+                                <h3>My Web & Mobile App Design</h3>
+                                <p>This is my Web & Mobile App Design that i have made</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h1>Contact Me</h1>
+                        <p>If you have something from me just contact me</p>
+                        <!-- <p id="contact-me">about me</p> -->
+                        <a href="mailto: fatihakmal2424@gmail.com" target="_blank"><img src="Image/email.png"></a>
+                        <a href="https://wa.me/qr/55ZEJWVWJ44LE1" target="_blank"><img src="Image/whatsapp.png"></a>
+                        <a href="https://t.me/f_akmal_h" target="_blank"><img src="Image/telegram.png"></a>
+                        <a href="https://www.instagram.com/fatih_akmal/" target="_blank"><img src="Image/instagram.png"></a>
+                        <a href="https://web.facebook.com/fatih.akmalh/" target="_blank"><img src="Image/facebook.png"></a>
+                        <a href="https://github.com/FatihAkmalH" target="_blank"><img src="Image/github.png"></a>
+                        <a href="https://www.linkedin.com/in/fatih-akmal-hibatullah-647a731bb" target="_blank"><img src="Image/linkedin.png"></a>
+                        <a href="https://dribbble.com/fatih_akmal" target="_blank"><img src="Image/dribbble.png"></a>
+                    </div>
+                    <!-- lanjut skill dst -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- JAVASCRIPT -->
+    <script src="app.js"></script>
+</body>
+</html>
